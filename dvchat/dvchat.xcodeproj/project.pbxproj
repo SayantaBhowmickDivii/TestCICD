@@ -6,63 +6,33 @@
 	objectVersion = 77;
 	objects = {
 
-/* Begin PBXContainerItemProxy section */
-		62CDCEDB2DDB4ED90092FDC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62CDCEBC2DDB4ED70092FDC8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62CDCEC32DDB4ED70092FDC8;
-			remoteInfo = dvchat;
-		};
-		62CDCEE52DDB4ED90092FDC8 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 62CDCEBC2DDB4ED70092FDC8 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 62CDCEC32DDB4ED70092FDC8;
-			remoteInfo = dvchat;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		62CDCEC42DDB4ED70092FDC8 /* dvchat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dvchat.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		62CDCEDA2DDB4ED90092FDC8 /* dvchatTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dvchatTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		62CDCEE42DDB4ED90092FDC8 /* dvchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dvchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		621AE30A2DDB563300B14246 /* Exceptions for "dvchat" folder in "dvchat" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 62CDCEC32DDB4ED70092FDC8 /* dvchat */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		62CDCEC62DDB4ED70092FDC8 /* dvchat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				621AE30A2DDB563300B14246 /* Exceptions for "dvchat" folder in "dvchat" target */,
+			);
 			path = dvchat;
-			sourceTree = "<group>";
-		};
-		62CDCEDD2DDB4ED90092FDC8 /* dvchatTests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = dvchatTests;
-			sourceTree = "<group>";
-		};
-		62CDCEE72DDB4ED90092FDC8 /* dvchatUITests */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = dvchatUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		62CDCEC12DDB4ED70092FDC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62CDCED72DDB4ED90092FDC8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62CDCEE12DDB4ED90092FDC8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,8 +46,6 @@
 			isa = PBXGroup;
 			children = (
 				62CDCEC62DDB4ED70092FDC8 /* dvchat */,
-				62CDCEDD2DDB4ED90092FDC8 /* dvchatTests */,
-				62CDCEE72DDB4ED90092FDC8 /* dvchatUITests */,
 				62CDCEC52DDB4ED70092FDC8 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -86,8 +54,6 @@
 			isa = PBXGroup;
 			children = (
 				62CDCEC42DDB4ED70092FDC8 /* dvchat.app */,
-				62CDCEDA2DDB4ED90092FDC8 /* dvchatTests.xctest */,
-				62CDCEE42DDB4ED90092FDC8 /* dvchatUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -117,52 +83,6 @@
 			productReference = 62CDCEC42DDB4ED70092FDC8 /* dvchat.app */;
 			productType = "com.apple.product-type.application";
 		};
-		62CDCED92DDB4ED90092FDC8 /* dvchatTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62CDCEF22DDB4ED90092FDC8 /* Build configuration list for PBXNativeTarget "dvchatTests" */;
-			buildPhases = (
-				62CDCED62DDB4ED90092FDC8 /* Sources */,
-				62CDCED72DDB4ED90092FDC8 /* Frameworks */,
-				62CDCED82DDB4ED90092FDC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62CDCEDC2DDB4ED90092FDC8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				62CDCEDD2DDB4ED90092FDC8 /* dvchatTests */,
-			);
-			name = dvchatTests;
-			packageProductDependencies = (
-			);
-			productName = dvchatTests;
-			productReference = 62CDCEDA2DDB4ED90092FDC8 /* dvchatTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		62CDCEE32DDB4ED90092FDC8 /* dvchatUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 62CDCEF52DDB4ED90092FDC8 /* Build configuration list for PBXNativeTarget "dvchatUITests" */;
-			buildPhases = (
-				62CDCEE02DDB4ED90092FDC8 /* Sources */,
-				62CDCEE12DDB4ED90092FDC8 /* Frameworks */,
-				62CDCEE22DDB4ED90092FDC8 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				62CDCEE62DDB4ED90092FDC8 /* PBXTargetDependency */,
-			);
-			fileSystemSynchronizedGroups = (
-				62CDCEE72DDB4ED90092FDC8 /* dvchatUITests */,
-			);
-			name = dvchatUITests;
-			packageProductDependencies = (
-			);
-			productName = dvchatUITests;
-			productReference = 62CDCEE42DDB4ED90092FDC8 /* dvchatUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -175,14 +95,6 @@
 				TargetAttributes = {
 					62CDCEC32DDB4ED70092FDC8 = {
 						CreatedOnToolsVersion = 16.2;
-					};
-					62CDCED92DDB4ED90092FDC8 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 62CDCEC32DDB4ED70092FDC8;
-					};
-					62CDCEE32DDB4ED90092FDC8 = {
-						CreatedOnToolsVersion = 16.2;
-						TestTargetID = 62CDCEC32DDB4ED70092FDC8;
 					};
 				};
 			};
@@ -201,28 +113,12 @@
 			projectRoot = "";
 			targets = (
 				62CDCEC32DDB4ED70092FDC8 /* dvchat */,
-				62CDCED92DDB4ED90092FDC8 /* dvchatTests */,
-				62CDCEE32DDB4ED90092FDC8 /* dvchatUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		62CDCEC22DDB4ED70092FDC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62CDCED82DDB4ED90092FDC8 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62CDCEE22DDB4ED90092FDC8 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -239,34 +135,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		62CDCED62DDB4ED90092FDC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		62CDCEE02DDB4ED90092FDC8 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		62CDCEDC2DDB4ED90092FDC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62CDCEC32DDB4ED70092FDC8 /* dvchat */;
-			targetProxy = 62CDCEDB2DDB4ED90092FDC8 /* PBXContainerItemProxy */;
-		};
-		62CDCEE62DDB4ED90092FDC8 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 62CDCEC32DDB4ED70092FDC8 /* dvchat */;
-			targetProxy = 62CDCEE52DDB4ED90092FDC8 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		62CDCEEE2DDB4ED90092FDC8 /* Debug */ = {
@@ -286,18 +155,23 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diviischool.dvchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = DvChatDevProfile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -318,18 +192,23 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.0.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.diviischool.dvchat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				"PROVISIONING_PROFILE_SPECIFIER[sdk=iphoneos*]" = DvChatDistProfile;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
@@ -452,74 +331,6 @@
 			};
 			name = Release;
 		};
-		62CDCEF32DDB4ED90092FDC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.diviischool.dvchatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dvchat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dvchat";
-			};
-			name = Debug;
-		};
-		62CDCEF42DDB4ED90092FDC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.diviischool.dvchatTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dvchat.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/dvchat";
-			};
-			name = Release;
-		};
-		62CDCEF62DDB4ED90092FDC8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.diviischool.dvchatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = dvchat;
-			};
-			name = Debug;
-		};
-		62CDCEF72DDB4ED90092FDC8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.diviischool.dvchatUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = dvchat;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -537,24 +348,6 @@
 			buildConfigurations = (
 				62CDCEEE2DDB4ED90092FDC8 /* Debug */,
 				62CDCEEF2DDB4ED90092FDC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62CDCEF22DDB4ED90092FDC8 /* Build configuration list for PBXNativeTarget "dvchatTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62CDCEF32DDB4ED90092FDC8 /* Debug */,
-				62CDCEF42DDB4ED90092FDC8 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		62CDCEF52DDB4ED90092FDC8 /* Build configuration list for PBXNativeTarget "dvchatUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				62CDCEF62DDB4ED90092FDC8 /* Debug */,
-				62CDCEF72DDB4ED90092FDC8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
