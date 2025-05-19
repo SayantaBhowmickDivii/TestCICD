@@ -29,22 +29,9 @@
 		62CDCEE42DDB4ED90092FDC8 /* dvchatUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dvchatUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		62CDCEEC2DDB4ED90092FDC8 /* Exceptions for "dvchat" folder in "dvchat" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = 62CDCEC32DDB4ED70092FDC8 /* dvchat */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		62CDCEC62DDB4ED70092FDC8 /* dvchat */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				62CDCEEC2DDB4ED90092FDC8 /* Exceptions for "dvchat" folder in "dvchat" target */,
-			);
 			path = dvchat;
 			sourceTree = "<group>";
 		};
